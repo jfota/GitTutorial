@@ -1,7 +1,7 @@
 #!/bin/bash 
 
-if [ $FAVORITE == "" ]; then
+if [ $1 == "Autobuild" ]; then
     echo "You have chosen my favorite character too!"
 else
-    echo "is better"
+    echo "Autobuild is better"
 fi
